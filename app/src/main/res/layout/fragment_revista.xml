@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment_revista">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="630dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--Buttons-->
+    <Button
+        android:id="@+id/btnCadastrarRevista"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:text="@string/btnCadastrar"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <Button
+        android:id="@+id/btnListarRevista"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:text="@string/btnListar"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <Button
+        android:id="@+id/btnExcluirRevista"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:text="@string/btnExcluir"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <Button
+        android:id="@+id/btnBuscarRevista"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:text="@string/btnBuscar"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <Button
+        android:id="@+id/btnAtualizarRevista"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:text="@string/btnAtualizar"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
